@@ -3,9 +3,9 @@ import { Navbar, Container, Nav,  Offcanvas } from 'react-bootstrap';
 
 const NavBar = () => {
     return (
-        <Navbar bg="light" expand='lg' className="mb-3 navBar" sticky="top">
+        <Navbar  expand='lg' className="navBar sticky-top"  sticky="top">
             <Container>
-                <Navbar.Brand href="#">Vaccine App</Navbar.Brand>
+                <Navbar.Brand href="#" className='navbarBrand'>Vaccine App</Navbar.Brand>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
                 <Navbar.Offcanvas
                     id={`offcanvasNavbar-expand-lg`}
@@ -18,12 +18,12 @@ const NavBar = () => {
                         </Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
-                        <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link href="#action1">Home</Nav.Link>
-                            <Nav.Link href="#action2">About Us</Nav.Link>
-                            <Nav.Link href="#action2">Subscriptions</Nav.Link>
+                        <Nav className="justify-content-end flex-grow-1 pe-3 navLinksContainer">
+                            <Nav.Link href="#action1" className='navLinks'> Home</Nav.Link>
+                            <Nav.Link href="#action2" className='navLinks'> About Us</Nav.Link>
+                            <Nav.Link href="#action2" className='navLinks'> Subscriptions</Nav.Link>
 
-                            <button>Get Started</ button>
+                            <button className='navBtn'>Get Started</ button>
                         </Nav>
 
                     </Offcanvas.Body>

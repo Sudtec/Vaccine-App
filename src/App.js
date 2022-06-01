@@ -6,7 +6,7 @@ import {Navbar} from './components/Navbar';
 
 const App = () => {
   return (
-    <div>
+    <div className='higher_order-container'>
         <Navbar />
         <Intro />
     </div>
