@@ -1,9 +1,10 @@
 import React from 'react'
-import { Navbar, Container, Nav,  Offcanvas } from 'react-bootstrap';
+import { Navbar, Container, Nav, Offcanvas } from 'react-bootstrap';
 
 const NavBar = () => {
     return (
-        <Navbar  expand='lg' className="navBar sticky-top"  sticky="top">
+
+        <Navbar expand='lg' className="navBar sticky-top" sticky="top">
             <Container>
                 <Navbar.Brand href="#" className='navbarBrand'>Vaccine App</Navbar.Brand>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />

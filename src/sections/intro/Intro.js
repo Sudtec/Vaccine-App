@@ -24,7 +24,10 @@ const Intro = () => {
               </button>
             </div>
           </div>
-          <div className='col-md-6 images'>
+          <div className='col-md-6 intoImagesContainer'>
+            <img src={callDoctor} alt='Call a doctor' className='callDoctor'/>
+            <img src={doctors} alt='doctors' className='doctors'/>
+            <img src={profile} alt='Profile' className='profile'/>
           </div>
         </div>
       </div>
