@@ -110,6 +110,63 @@
 }
 
 /* Why Section */
-.why {
-  height: 755px;
+
+.whyContainer {
+  position: relative;
+  margin: 40px auto;
+}
+.whyImagesContainer {
+  display: flex;
+  align-items: center;
+}
+.whyImagesContainer img {
+  width: 244.64px;
+  height: 531.82px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.whyImagesContainer .whyCall {
+  transform: rotate(-0.05deg);
+}
+.whyImagesContainer .docProfile {
+  transform: rotate(2.21deg);
+  position: absolute;
+  left: 164px;
+  top: 82px;
+}
+.whyContentsContainer {
+  display: flex;
+  justify-content: center;
+}
+.whyContents .whyHeader {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 60px;
+  color: #2e2e2e;
+}
+.whyContents .whyAnswer {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #737373;
+  width: 490px;
+}
+.whyReasons {
+  margin-top: 68px;
+}
+.Reason {
+  margin-bottom: 27px;
+}
+.Reason .whyPoint {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2e2e2e;
+}
+.Reason .whyPointExplanation {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #737373;
+  width: 450px;
 }
