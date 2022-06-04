@@ -90,7 +90,7 @@
   top: 120px;
   left: 5px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  transform: rotate(-13.13deg);
+  transform: rotate(-8.13deg);
   z-index: 15;
 }
 .intoImagesContainer .doctors {
@@ -102,10 +102,10 @@
 
 .intoImagesContainer .profile {
   position: absolute;
-  right: 72px;
-  top: 115.22px;
+  right: 92px;
+  top: 87.22px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  transform: rotate(9.85deg);
+  transform: rotate(-0.15deg);
   z-index: 15;
 }
 
@@ -169,4 +169,50 @@
   line-height: 18px;
   color: #737373;
   width: 450px;
+}
+/* How to use APP Section */
+.how {
+  margin: 90px auto;
+}
+
+.howCol {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.howInfoContainer .howInfoTitle {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 68px;
+  color: #2e2e2e;
+}
+.howInfoContainer .howInfoContent {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170.69%;
+  color: #737373;
+}
+.cardRow {
+  margin-top: 84px;
+}
+
+.howCardIcon {
+  width: 104px;
+  height: 104px;
+  margin-bottom: 46px;
+}
+.howCard .howCardTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #2e2e2e;
+}
+.howCard .howCardContent {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #737373;
+  width: 246px;
 }
