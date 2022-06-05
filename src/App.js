@@ -4,7 +4,8 @@ import './css/style.css'
 import { Navbar } from './components/Navbar';
 import { Intro } from './sections/intro';
 import { Why } from './sections/why';
-import { How } from './sections/How'
+import { How } from './sections/How';
+import { Reminder } from './sections/Reminder';
 const App = () => {
   return (
     <div className='higher_order-container'>
@@ -12,6 +13,7 @@ const App = () => {
       <Intro />
       <Why />
       <How />
+      <Reminder />
     </div>
   )
 }
