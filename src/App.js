@@ -6,6 +6,8 @@ import { Intro } from './sections/intro';
 import { Why } from './sections/why';
 import { How } from './sections/How';
 import { Reminder } from './sections/Reminder';
+import { Brands } from './sections/Brands';
+import { Features } from './sections/features';
 const App = () => {
   return (
     <div className='higher_order-container'>
@@ -14,6 +16,8 @@ const App = () => {
       <Why />
       <How />
       <Reminder />
+      <Brands />
+      <Features />
     </div>
   )
 }

@@ -262,3 +262,101 @@
   height: 500px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+/* Brands Section */
+.brands {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.leadwayHealth {
+  width: 244px;
+  height: 73.36px;
+}
+.NHIS {
+  width: 222px;
+  height: 126.86px;
+}
+.hmoReliance {
+  width: 248.62px;
+  height: 64px;
+}
+.mansardHealth {
+  width: 255px;
+  height: 87px;
+}
+.HygeiaHealth {
+  width: 215px;
+  height: 86px;
+}
+.brandsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Features Section */
+.features {
+  background: #0c84dc;
+  height: 740px;
+}
+.featuresContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.featuresContent {
+  width: 675px;
+  height: 151px;
+  margin-top: 35px;
+}
+.featuresContent .featuresHeader {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 68px;
+  color: #ffffff;
+}
+.featuresContent .featuresDesc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170.69%;
+  text-align: center;
+  color: #ffffff;
+}
+.specialFeatures .specialFeaturesCol {
+  margin-top: 82px;
+}
+.specialFeatures .specialFeaturesCol .featureCardImg {
+  width: 134px;
+  margin: auto;
+  display: block;
+}
+.specialFeatures .specialFeaturesCol .featureCardTitle {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 170.69%;
+  text-align: center;
+  color: #ffffff;
+  margin: 20px auto;
+}
+
+.specialFeatures .specialFeaturesCol .featureCardDesc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170.69%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.specialFeatures .specialFeaturesCol .featureCardLabel {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170.69%;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #2e2e2e;
+  display: block;
+}
