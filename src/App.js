@@ -8,6 +8,7 @@ import { How } from './sections/How';
 import { Reminder } from './sections/Reminder';
 import { Brands } from './sections/Brands';
 import { Features } from './sections/features';
+import { DoctorsOnCall } from './sections/doctorsOnCall'
 const App = () => {
   return (
     <div className='higher_order-container'>
@@ -18,6 +19,7 @@ const App = () => {
       <Reminder />
       <Brands />
       <Features />
+      <DoctorsOnCall />
     </div>
   )
 }
