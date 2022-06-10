@@ -362,7 +362,7 @@
 }
 
 /* Doctors On Call  */
-.doctorsOnCallContainer{
+.doctorsOnCallContainer {
   margin-bottom: 110px;
 }
 .doctorsOnCallContainer .onCallDesc {
@@ -437,4 +437,28 @@
   border: none;
   border-radius: 15px;
   color: white;
+}
+
+/* Review Container */
+.review {
+  height: 597px;
+  background: #0c84dc;
+}
+.reviewContainer .reviewContent{
+  text-align: center;
+  padding-top: 58px;
+}
+.reviewContainer .reviewContent .reviewTitle {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 170.69%;
+  color: #ffffff;
+}
+.reviewContainer .reviewContent .reviewDesc {
+  width: 670px;
+  margin: auto;
+  font-weight: 400;
+  font-size: 14.287px;
+  line-height: 170.69%;
+  color: #ffffff;
 }
