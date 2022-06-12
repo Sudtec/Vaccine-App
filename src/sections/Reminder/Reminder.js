@@ -6,7 +6,7 @@ const Reminder = () => {
     return (
         <section className='reminder'>
             <div className="container reminderContainer">
-                <div className="row">
+                <div className="row vaccineRow">
                     <div className="col-md-6 reminderImage">
                         <img src={vaccineReminder} alt="Vaccine Reminder" className='vaccineReminder' />
                     </div>
@@ -20,7 +20,7 @@ const Reminder = () => {
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row medicationRow">
                     <div className="col-md-6 vaccineReminderContent">
                         <h5 className='vaccineReminderTitle'>
                             Medication Tracker

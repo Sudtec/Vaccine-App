@@ -1,5 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'antd/dist/antd.css';
+import 'animate.css';
 import './css/style.css'
 import { Navbar } from './components/Navbar';
 import { Intro } from './sections/intro';
@@ -10,6 +12,7 @@ import { Brands } from './sections/Brands';
 import { Features } from './sections/features';
 import { DoctorsOnCall } from './sections/doctorsOnCall';
 import { Review } from './sections/review';
+import { Faq } from './sections/Faq';
 const App = () => {
   return (
     <div className='higher_order-container'>
@@ -22,6 +25,7 @@ const App = () => {
       <Features />
       <DoctorsOnCall />
       <Review />
+      <Faq />
     </div>
   )
 }
