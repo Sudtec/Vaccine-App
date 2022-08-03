@@ -11,9 +11,9 @@ const DoctorsOnCall = () => {
           <p className="onCallDescContent">24/7 Access to the Best Medical Doctors Without Leaving Your Comfort Zone</p>
         </div>
         <div className="row">
-          <div className="col-md-6 onCallInfoCol">
+          <div className="col-lg-6 col-md-12 col-sm-12  onCallInfoCol">
             <div className="row">
-              <div className="col-md-6 infoCol">
+              <div className="col-lg-6 col-md-12 infoCol">
                 <div className="department">
                   <h5 className="departmentName">General </h5>
                   <p className="departmentDesc">Lorem ipsum dolor sit amet, consectetur adipiscin
@@ -30,7 +30,7 @@ const DoctorsOnCall = () => {
                     g elit ut aliquam, purus </p>
                 </div>
               </div>
-              <div className="col-md-6 infoCol">
+              <div className="col-lg-6 col-md-12 col-sm-12 infoCol">
                 <div className="department">
                   <h5 className="departmentName">Obstetrics & Gynecology </h5>
                   <p className="departmentDesc">Lorem ipsum dolor sit amet, consectetur adipiscin

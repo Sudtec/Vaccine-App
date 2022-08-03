@@ -37,15 +37,86 @@
   color: white;
   border: none;
 }
-
+@media only screen and (max-width: 900px) {
+  .navLinksContainer .navLinks {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .navBtn {
+    border-radius: 100px;
+    padding: 5px 25px;
+    font-size: 15px;
+    margin-top: 10px;
+    align-self: center;
+  }
+  .navLinksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navLinksContainer .navLinks {
+    margin-right: 0;
+  }
+}
 /* Intro Section */
-.intro {
+.introContainer {
   background: #c7deee;
-  height: 732px;
+}
+.intro {
+  height: 90vh;
+  background-image: url("../images/introBg.png");
+  background-size: 90%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+
+  align-items: center;
+  padding-left: 190px;
 }
 
-.row .content .introHeading {
-  margin-top: 176px;
+@media only screen and (max-width: 1650px) {
+  .intro {
+    height: 93vh;
+    padding-left: 153px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .intro {
+    height: 93vh;
+    padding-left: 87px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .intro {
+    height: 79vh;
+    padding-left: 10%;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .intro {
+    padding-left: 50px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .intro {
+    background-image: none;
+    display: flex;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .intro {
+    background-image: none;
+    display: flex;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+}
+.introContent .introHeading {
   width: 475px;
   height: 240px;
   font-weight: 800;
@@ -53,21 +124,54 @@
   line-height: 60px;
   color: #2e2e2e;
 }
-.row .content .introInfo {
+@media only screen and (max-width: 1200px) {
+  .introContent .introHeading {
+    width: 610px;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .introContent .introHeading {
+    width: 100%;
+    font-weight: 600;
+    font-size: 30px;
+  }
+}
+.introContent .introInfo {
   font-weight: 400;
   font-size: 18px;
-  line-height: 18px;
   color: #2e2e2e;
   width: 500px;
   margin-top: 43px;
 }
+@media only screen and (max-width: 1200px) {
+  .introContent .introInfo {
+    width: 570px;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .introContent .introInfo {
+    width: 100%;
+  }
+}
 .introBtns {
   margin-top: 64px;
+}
+@media only screen and (max-width: 600px) {
+  .introBtns {
+    margin-top: 20px;
+  }
 }
 .googleBtn,
 .playStoreBtn {
   border-radius: 6.37569px;
   border: none;
+}
+@media only screen and (max-width: 600px) {
+  .googleBtn {
+    margin-bottom: 15px;
+  }
 }
 .googleBtn {
   margin-right: 27px;
@@ -113,10 +217,20 @@
 }
 
 /* Why Section */
-
+.why {
+  background: #dee7ee;
+}
 .whyContainer {
   position: relative;
-  margin: 40px auto;
+  padding: 40px;
+}
+@media only screen and (max-width: 1200px) {
+  .whyContainer {
+    padding: 50px 10px;
+  }
+  .whyImagesContainer .docProfile {
+    display: none;
+  }
 }
 .whyImagesContainer {
   display: flex;
@@ -138,6 +252,13 @@
   width: 244.64px;
   height: 439.82px;
 }
+@media only screen and (max-width: 990px) {
+  .whyImagesContainer .docProfile,
+  .whyImagesContainer .whyCall {
+    display: none;
+  }
+}
+
 .whyContentsContainer {
   display: flex;
   justify-content: center;
@@ -148,13 +269,15 @@
   line-height: 60px;
   color: #2e2e2e;
 }
+@media only screen and (max-width: 600px) {
+  .whyContents .whyHeader {
+    font-size: 35px;
+  }
+}
 .whyContents .whyAnswer {
   font-weight: 400;
   font-size: 18px;
-  line-height: 18px;
-  text-align: center;
   color: #737373;
-  width: 490px;
 }
 .whyReasons {
   margin-top: 68px;
@@ -165,15 +288,12 @@
 .Reason .whyPoint {
   font-weight: 600;
   font-size: 20px;
-  line-height: 30px;
   color: #2e2e2e;
 }
 .Reason .whyPointExplanation {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 18px;
   color: #737373;
-  width: 450px;
+  font-size: 18px;
 }
 /* How to use APP Section */
 .how {
@@ -188,14 +308,23 @@
 .howInfoContainer .howInfoTitle {
   font-weight: 800;
   font-size: 45px;
-  line-height: 68px;
   color: #2e2e2e;
+}
+@media only screen and (max-width: 600px) {
+  .howInfoContainer .howInfoTitle {
+    font-size: 35px;
+  }
 }
 .howInfoContainer .howInfoContent {
   font-weight: 400;
   font-size: 18px;
   line-height: 170.69%;
   color: #737373;
+}
+@media only screen and (max-width: 600px) {
+  .howInfoContainer .howInfoContent {
+    font-size: 15px;
+  }
 }
 .cardRow {
   margin-top: 84px;
@@ -216,33 +345,46 @@
 .howCard .howCardContent {
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
   text-align: center;
   color: #737373;
   width: 246px;
 }
-
+@media only screen and (max-width: 600px) {
+  .howCard .howCardContent {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .cardRow {
+    display: flex;
+    justify-content: center;
+  }
+  .howCard .howCardContent {
+    width: auto;
+    margin-bottom: 25px;
+  }
+}
 /* Reminder Section */
 .reminder {
   background: #0c84dc;
+  position: relative;
+}
+.wavySvg {
+  margin-bottom: -2px;
+  width: 100%;
 }
 /* .reminderContainer {
   padding-top: 84px;
   padding-bottom: 84px;
 } */
-.reminderContainer .row.vaccineRow {
+.reminderContainer .row {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 50px;
-  padding-bottom: 0px;
+  padding-bottom: 30px;
 }
-.reminderContainer .row.medicationRow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 50px;
-}
+
 .reminderImage {
   display: flex;
   justify-content: center;
@@ -259,6 +401,13 @@
   line-height: 68px;
   color: #ffffff;
 }
+@media only screen and (max-width: 600px) {
+  .vaccineReminderContent .vaccineReminderTitle {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+  }
+}
 .vaccineReminderContent .vaccineReminderDesc {
   font-weight: 400;
   font-size: 18px;
@@ -273,12 +422,21 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+@media only screen and (max-width: 600px) {
+  .reminderImage .vaccineReminder {
+    display: none;
+  }
+  .reminderImage .medicationReminder {
+    display: none;
+  }
+}
 /* Brands Section */
 .brands {
   height: 200px;
   display: flex;
   align-items: center;
 }
+
 .leadwayHealth {
   width: 244px;
   height: 73.36px;
@@ -305,21 +463,57 @@
   justify-content: space-around;
 }
 
+@media only screen and (max-width: 1200px) {
+  .leadwayHealth {
+    width: 141.85px;
+    height: 42.65px;
+  }
+  .NHIS {
+    width: 129.06px;
+    height: 73.75px;
+  }
+  .hmoReliance {
+    width: 144.53px;
+    height: 37.21px;
+  }
+  .mansardHealth {
+    width: 148.24px;
+    height: 50.58px;
+  }
+  .HygeiaHealth {
+    width: 124.99px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .brands {
+    display: none;
+  }
+}
+
 /* Features Section */
 .features {
   background: #0c84dc;
-  height: 740px;
+  padding: 15px;
 }
 .featuresContainer {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center; */
   text-align: center;
+  padding-top: 80px;
 }
 .featuresContent {
   width: 675px;
   height: 151px;
-  margin-top: 35px;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .featuresContent {
+    width: auto;
+  }
 }
 .featuresContent .featuresHeader {
   font-weight: 800;
@@ -327,6 +521,7 @@
   line-height: 68px;
   color: #ffffff;
 }
+
 .featuresContent .featuresDesc {
   font-weight: 400;
   font-size: 18px;
@@ -369,6 +564,14 @@
   text-decoration-line: underline;
   color: #2e2e2e;
   display: block;
+}
+@media only screen and (max-width: 600px) {
+  .featuresContent .featuresHeader {
+    font-size: 35px;
+  }
+  .featuresContent .featuresDesc {
+    font-size: 15px;
+  }
 }
 
 /* Doctors On Call  */
@@ -451,7 +654,29 @@
   border-radius: 15px;
   color: white;
 }
-
+@media only screen and (max-width: 992px) {
+  .onCallImage img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .onCallDesc .onCallDesTitle {
+    font-size: 30px;
+  }
+  .doctorsOnCallContainer .row {
+    margin-top: 15px;
+  }
+  .infoCol .department .departmentDesc {
+    font-size: 15px;
+  }
+  .onCallInstruction {
+    text-align: left;
+  }
+  .onCallInstruction label {
+    font-size: 15px;
+    text-align: left;
+  }
+}
 /* Review Container */
 .review {
   height: 597px;
@@ -475,7 +700,22 @@
   line-height: 170.69%;
   color: #ffffff;
 }
-
+@media only screen and (max-width: 600px) {
+  .review {
+    height: max-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .reviewContainer .reviewContent .reviewTitle {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 119%;
+  }
+  .reviewContainer .reviewContent .reviewDesc {
+    width: 100%;
+    font-size: 13px;
+  }
+}
 /* Reviewers Swipper  */
 .swiper {
   width: 531px;
@@ -547,6 +787,23 @@
   text-align: left;
   margin-top: 19.38px;
 }
+@media only screen and (max-width: 600px) {
+  .swiper {
+    width: 100%;
+    height: 300px;
+  }
+  .reviwersProfileContainer .ReviewersImg {
+    width: 50px;
+    height: 50px;
+    margin-left: 45px;
+  }
+  .reviewContainer .reviews {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    padding: 0 60px;
+  }
+}
 
 /* Faq Section */
 .faqContent {
@@ -607,20 +864,132 @@
 }
 .faqImageContainer .faqFloorImage {
   position: relative;
-  top: 223px;
+  top: 261px;
   left: 43px;
 }
 .faqImageContainer .femaleFaq {
   position: absolute;
   left: 64px;
-  top: 80px;
+  top: 120px;
 }
 .faqImageContainer .faqQuestionImage {
   position: absolute;
-  left: 252px;
+  left: 255px;
+  top: 80px;
 }
 .faqImageContainer .maleFaq {
   position: absolute;
   right: 21px;
-  top: 80px;
+  top: 120px;
+}
+@media only screen and (max-width: 600px) {
+  .faqImageContainer .faqFloorImage {
+    display: none;
+  }
+  .faqImageContainer .femaleFaq {
+    display: none;
+  }
+  .faqImageContainer .maleFaq {
+    display: none;
+  }
+  .faqImageContainer .faqQuestionImage {
+    display: none;
+  }
+  .faqImageContainer {
+    display: none;
+  }
+}
+/* Footer section */
+footer {
+  height: 415px;
+  background: #0c84dc;
+}
+
+footer .footerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 94px;
+  position: relative;
+}
+.footerContainer div h5 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 194.69%;
+  color: #ffffff;
+}
+.aboutUsCol ul,
+.supportCol ul {
+  padding-top: 5px;
+  padding-left: 0;
+}
+.aboutUsCol ul li,
+.supportCol ul li {
+  list-style-type: none;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.socialContainer {
+  display: flex;
+}
+
+.socialContainer .instagram,
+.socialContainer .linkedin,
+.socialContainer .twitter {
+  background: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+.downloadCol .download {
+  display: flex;
+  justify-content: space-between;
+}
+.download button {
+  margin-right: 27px;
+  overflow: hidden;
+  border-radius: 6.4px;
+  border: none;
+}
+.download button img {
+  width: 190px;
+  height: 50px;
+}
+
+@media only screen and (max-width: 990px) {
+  .footerContainer div h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.8193px;
+  }
+  .download button img {
+    width: 114.26px;
+    height: 29.64px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .download button {
+    display: block;
+    margin-bottom: 8px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    height: auto;
+    padding: 20px 0;
+  }
+  footer .footerContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .downloadCol {
+    order: -1;
+  }
 }

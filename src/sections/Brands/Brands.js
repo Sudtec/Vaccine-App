@@ -7,15 +7,15 @@ import hmo from '../../images/hmo.png';
 
 const Brands = () => {
     return (
-       <section className='container-fluid brands'>
-           <div className="container brandsContainer">
-            <img src={leadway} alt="leadway Health" className='leadwayHealth' />
-            <img src={NHIS} alt="NHIS Health" className='NHIS' />
-            <img src={hmo} alt="hmo Health" className='hmoReliance' />
-            <img src={mansard} alt="mansard Health" className='mansardHealth' />
-            <img src={Hygeia} alt="Hygeia Health" className='HygeiaHealth' />
-           </div>
-       </section>
+        <section className='container brands'>
+            <div className="container brandsContainer">
+                <img src={leadway} alt="leadway Health" className='leadwayHealth' />
+                <img src={NHIS} alt="NHIS Health" className='NHIS' />
+                <img src={hmo} alt="hmo Health" className='hmoReliance' />
+                <img src={mansard} alt="mansard Health" className='mansardHealth' />
+                <img src={Hygeia} alt="Hygeia Health" className='HygeiaHealth' />
+            </div>
+        </section>
     )
 }
 

@@ -13,12 +13,15 @@ import { Features } from './sections/features';
 import { DoctorsOnCall } from './sections/doctorsOnCall';
 import { Review } from './sections/review';
 import { Faq } from './sections/Faq';
+import { Footer } from './sections/footer';
+import { ReactComponent as Wavy }  from './images/wavy.svg';
 const App = () => {
   return (
     <div className='higher_order-container'>
       <Navbar />
       <Intro />
       <Why />
+          
       <How />
       <Reminder />
       <Brands />
@@ -26,6 +29,7 @@ const App = () => {
       <DoctorsOnCall />
       <Review />
       <Faq />
+      <Footer />
     </div>
   )
 }
