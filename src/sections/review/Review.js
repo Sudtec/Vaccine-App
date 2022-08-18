@@ -8,7 +8,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import ReviewersImg from '../../images/ReviewersImg.png';
 const Review = () => {
     return (
-        <section className="container-fluid review">
+        <section className="container-fluid review" id='review'>
             <div className="reviewContainer container">
                 <div className="reviewContent">
                     <h5 className="reviewTitle">What Our Customers Have to Say</h5>

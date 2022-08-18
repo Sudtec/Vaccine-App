@@ -4,6 +4,7 @@ import { ReactComponent as Instagram } from '../../images/Instagram.svg'
 import { ReactComponent as Linkedin } from '../../images/Linkedin.svg';
 import playStore from '../../images/play_store.png';
 import appleStore from '../../images/apple_store.png'
+
 const Footer = () => {
     return (
         <footer>
@@ -11,32 +12,65 @@ const Footer = () => {
                 <div className='aboutUsCol'>
                     <h5>About Us</h5>
                     <ul>
-                        <li>Home</li>
-                        <li>Subscription</li>
-                        <li>Features</li>
-                        <li>Testimonials</li>
+                        <li>
+                            <a href='#intro'>
+                                Home
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href='#features'>
+                                Subscription
+                            </a>
+                        </li>
+                        <li>
+                            <a href='#reminder'>
+                                Features
+                            </a>
+                        </li>
+                        <li>
+                            <a href='#review'>
+                                Testimonials
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div className='supportCol'>
                     <h5>Support</h5>
                     <ul>
-                        <li>Privacy Policy</li>
-                        <li>Terms of Services</li>
-                        <li>Accessibility</li>
-                        <li>FAQ</li>
+                        <li>
+                            <a href='#privacypolicy'>
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href='#terms'>
+                                Terms of Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href='#accessibility'>
+                                Accessibility
+                            </a>
+                        </li>
+                        <li>
+                            <a href='#FAQ'>
+                                FAQ
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div className='socialCol'>
                     <h5>Social Links</h5>
 
                     <div className='socialContainer'>
-                        <a href="#" className='instagram'>
+                        <a href="#instar" className='instagram'>
                             <Instagram />
                         </a>
-                        <a href="#" className='linkedin'>
+                        <a href="#linkedin" className='linkedin'>
                             <Linkedin />
                         </a>
-                        <a href="#" className='twitter'>
+                        <a href="#twitter" className='twitter'>
                             <Twitter />
                         </a>
                     </div>

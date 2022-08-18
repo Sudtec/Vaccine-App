@@ -10,7 +10,7 @@ const { Panel } = Collapse;
 const Faq = () => {
     const { ref, inView, } = useInView();
     return (
-        <section className='container-fluid' ref={ref}>
+        <section className='container-fluid' ref={ref} id='FAQ'>
             <div className="container faqContainer">
                 <div className="row">
                     <div className="col-lg-6 col-md-12 col-sm-12 faqContent">

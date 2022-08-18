@@ -5,7 +5,7 @@ import medicationReminder from '../../images/medicationReminder.png';
 
 const Reminder = () => {
     return (
-        <section className='reminder'>
+        <section className='reminder' id='reminder'>
 
             <div className="container reminderContainer">
                 <div className="row ">

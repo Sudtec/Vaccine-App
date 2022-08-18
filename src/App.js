@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import 'animate.css';
 import './css/style.css'
 import { Navbar } from './components/Navbar';
@@ -14,7 +14,7 @@ import { DoctorsOnCall } from './sections/doctorsOnCall';
 import { Review } from './sections/review';
 import { Faq } from './sections/Faq';
 import { Footer } from './sections/footer';
-import { ReactComponent as Wavy }  from './images/wavy.svg';
+
 const App = () => {
   return (
     <div className='higher_order-container'>

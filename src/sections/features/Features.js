@@ -6,7 +6,7 @@ import ussdCode from '../../images/ussdCode.png';
 
 const Features = () => {
     return (
-        <section className="container-fluid features">
+        <section className="container-fluid features" id='features'>
             <div className="container featuresContainer">
                 <div className="featuresContent">
                     <h5 className="featuresHeader">

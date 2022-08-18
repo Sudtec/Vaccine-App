@@ -2,13 +2,11 @@ import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import appleStore from '../../images/apple_store.png';
 import playStore from '../../images/play_store.png';
-import callDoctor from '../../images/call_doctor.png';
-import doctors from '../../images/doctors.png'
-import profile from '../../images/profile.png'
+
 const Intro = () => {
   const { ref, inView, } = useInView();
   return (
-    <div className='introContainer'>
+    <div className='introContainer' id='intro'>
       <section className='container-fluid intro' ref={ref}>
         <div className="introContent">
           <h2 className={`introHeading ${inView && 'animate__animated animate__slideInDown'}`}>

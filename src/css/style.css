@@ -922,9 +922,13 @@ footer .footerContainer {
   padding-top: 5px;
   padding-left: 0;
 }
-.aboutUsCol ul li,
+.aboutUsCol ul li ,
 .supportCol ul li {
   list-style-type: none;
+}
+.aboutUsCol ul li a,
+.supportCol ul li a{
+
   font-size: 15px;
   color: white;
   font-weight: 500;

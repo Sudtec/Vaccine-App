@@ -6,7 +6,7 @@ import docProfile from '../../images/doc_profile.png';
 const Why = () => {
     const { ref, inView, } = useInView();
     return (
-        <section className='container-fluid why' ref={ref}>
+        <section className='container-fluid why' ref={ref} id='why'>
             <div className='container whyContainer'>
                 <div className="row d-flex">
                     <div className="col-md-6 col-sm-0 whyImagesContainer">
