@@ -4,7 +4,7 @@ import install from '../../images/install.png';
 import logIN from '../../images/logIN.png';
 import search from '../../images/search.png';
 const How = () => {
-    const { ref, inView, } = useInView();
+    const { ref } = useInView();
     return (
         <section className='container-fluid how' ref={ref}>
             <div className="container howContainer">
